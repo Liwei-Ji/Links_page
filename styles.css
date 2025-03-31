@@ -1,0 +1,63 @@
+/* 樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    line-height: 2;
+}
+
+/* 圖片*/
+.logo img {
+    margin-right: 10px; /* 設定圖片和標題的間距 */
+    width: 150px;  /* 寬度 */
+    height: 150px; /* 高度*/
+    border-radius: 50%;
+}
+
+/* 標題樣式 */
+header {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* 列表樣式 */
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+/* 鏈接樣式 */
+.links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #e0e0e0;
+    text-align: center;
+    width: 200px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #0077cc;
+    color: white;
+}
+
